@@ -9,6 +9,7 @@ int main(int argc, char *argv[])
 	// ex8.c:8:8: warning: excess elements in scalar initializer
 	// ex8.c:21:53: warning: format specifies type 'char *' but the argument has type
     // 'char' [-Wformat]
+    // also need the '\0' at the end of the array
 	char full_name[] = {
 		'M', 'e', 'r', 'c', 'e', 'd', 'e', 's',
 		' ', 'C', 'o', 'y', 'l', 'e', '\0'
