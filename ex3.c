@@ -10,5 +10,8 @@ int main()
 	printf("I am %d years old. \n", age);
 	printf("I am %d inches tall. \n", height);
 	return 0;
-	/* why the return 0? if commented out the code still works. */
+	/* why the return 0? if commented out the code still works. 
+       a: it's the standard return for c (and unix shell programs).
+       if it runs, it returns 0.
+    */
 }

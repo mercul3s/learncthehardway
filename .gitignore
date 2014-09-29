@@ -19,3 +19,4 @@
 # Other
 *.cache
 *.dSYM
+.DS_Store
