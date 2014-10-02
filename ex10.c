@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 int main(int argc, char *argv[]) {
     int i = 0;
@@ -19,6 +20,10 @@ int main(int argc, char *argv[]) {
 
     for(i = 0; i < num_states; i++) {
         printf("State %d: %s\n", i, states[i]);
+        // for some reason this causes a segfault
+        // for(int j = 0; j < strlen(states[i]); j++) {
+        //     printf("%s\n", states[i][j]);
+        // }
     }
 
     return 0;
